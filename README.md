@@ -1,35 +1,63 @@
-# TV Show Landing Page
+# TV Show Landing
 
-Welcome to the TV Show Landing Page repository! This project is a sleek and interactive landing page designed to showcase a variety of TV shows and movies. It serves as a test assignment for job applications, demonstrating proficiency in web development, user interface design, and responsive web design.
+Streaming service landing page with TV shows and movies showcase, trending sliders and genre catalog.
 
-## Technologies and Tools
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-- **HTML5**: Provides the basic structure of the site.
-- **CSS3/SCSS**: Enhances the visual presentation and adds animations.
-- **JavaScript**: Adds interactivity and dynamic content.
-- **Mobile first**: An approach to web development where website design is primarily optimized for mobile devices.
-- **Responsive Design**: Ensures a seamless experience across various devices.
-- **Swiper js**: Swiper js library.
-- **Git/GitHub**: Utilized for version control and source code management.
+## About
 
+TV Show Landing is a static streaming service landing page inspired by Netflix and similar platforms. Features a hero section with featured content, trending sliders for TV shows and movies, genre catalog and popular actors section. Built mobile-first with vanilla HTML, SCSS and JavaScript.
+
+🔗 **Live:** [tv-show](https://vergos1.github.io/tv-show/)
+
+## Sections
+
+| Section | Description |
+|---|---|
+| **Hero** | Featured movie with details and CTA |
+| **Trending TV Shows** | Horizontal slider with trending content |
+| **Trending Movies** | Horizontal slider with popular movies |
+| **Popular Genres** | Genre catalog |
+| **Popular Actors** | Actors and directors showcase |
+| **Coming Soon** | Registration CTA section |
 
 ## Features
 
-- **Showcase of TV Shows and Movies**: Displays popular and trending content with captivating visuals and detailed information.
-- **Interactive Elements**: Offers a user-friendly navigation experience with interactive buttons and links.
-- **Responsive Layout**: Delivers a consistent and accessible user interface on desktops, tablets, and smartphones.
-- **Clean and Modern Design**: Focuses on providing an excellent user experience with a contemporary and elegant design.
+- **Swiper sliders** — touch-friendly trending content carousels
+- **Burger menu** — animated mobile navigation with scroll lock
+- **Mobile first** — responsive layout optimized for all screen sizes
+- **SCSS architecture** — variables, mixins and animations separated by files
+- **Rollup** — JS bundling and minification
 
-## Contact
+## Tech Stack
 
-- **Ihor Yanchuk**
-  - 📧 Email: [legendsmobajl4@gmail.com](mailto:legendsmobajl4@gmail.com)
-  - 🔗 LinkedIn: [ihor-yanchuk-248a64268](https://www.linkedin.com/in/ihor-yanchuk-248a64268/)
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure |
+| SCSS / CSS3 | Styling and animations |
+| JavaScript | Interactivity and slider logic |
+| Swiper.js | Touch sliders |
+| Rollup | JS bundler |
 
-## Project Link
+## Getting Started
 
-- ((https://vergos1.github.io/TV-Show-Landing-Page/))
+```bash
+# Clone the repository
+git clone https://github.com/Vergos1/tv-show.git
 
----
+# Install dependencies
+npm install
 
-This README template is crafted with ❤️. Enjoy your coding!
+# Build JS bundle
+npm run build
+
+# Open in browser
+open index.html
+```
+
+## Author
+
+Designed and developed by **Ihor Yanchuk**
+[Portfolio](https://portfolio-v3-coral-theta.vercel.app/) · [GitHub](https://github.com/Vergos1)
